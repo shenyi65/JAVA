@@ -5,11 +5,11 @@
 //for(mu=1;mu<=33;mu++){
 //if(gong*5+mu*3+(100-gong-mu)/3.0==100){
 //n++;
-//System.out.println("ç¬¬"+n+"ç§ä¹°æ³•ï¼šå…¬é¸¡ï¼š "+gong+"åªï¼Œæ¯é¸¡ï¼š "+mu+"åª,å°é¸¡ï¼š "+(100-gong-mu)+"åª");
+//System.out.println("µÚ"+n+"ÖÖÂò·¨£º¹«¼¦£º "+gong+"Ö»£¬Ä¸¼¦£º "+mu+"Ö»,Ğ¡¼¦£º "+(100-gong-mu)+"Ö»");
 //}
 //}
 //}
-//System.out.println("å…±æœ‰"+n+"ç§ä¹°æ³•");
+//System.out.println("¹²ÓĞ"+n+"ÖÖÂò·¨");
 //}
 //}
 
@@ -46,7 +46,7 @@
 //
 
 //int maxd =  num (1,81111);
-//System.out.println ("è¾ƒå¤§æ•°ä¸ºï¼š"+maxd);
+//System.out.println ("½Ï´óÊıÎª£º"+maxd);
 //
 //}
 //
@@ -66,7 +66,7 @@
 //	{
 //int [] arr = {2,4,55,77};
 //int max = getmax(arr);
-//System.out.println("æœ€å¤§å€¼ï¼š"+ max);
+//System.out.println("×î´óÖµ£º"+ max);
 //	}
 //
 //   public static int getmax(int [] arr){
@@ -92,7 +92,7 @@
 //       }
 //      sum=sum+mul;
 //        }
-//System.out.println("1ï¼+2ï¼+3ï¼+â€¦â€¦+10ï¼= "+sum);
+//System.out.println("1£¡+2£¡+3£¡+¡­¡­+10£¡= "+sum);
 //}
 //}
 
@@ -108,7 +108,7 @@
 // public static void getResult(int num)
 // {
 //  System.out.println(num * 3 + 5);
-//  return;//å¯ä»¥çœç•¥
+//  return;//¿ÉÒÔÊ¡ÂÔ
 // }
 //
 //}
@@ -121,10 +121,10 @@
 //  printHr();
 // }
 // /*
-// å®šä¹‰ä¸€ä¸ªåŠŸèƒ½ï¼Œç”¨äºæ‰“å°çŸ©å½¢ã€‚
-// æ€è·¯ï¼š
-// 1ï¼Œç¡®å®šç»“æœï¼šæ²¡æœ‰ï¼Œå› ä¸ºç›´æ¥æ‰“å°ã€‚æ‰€ä»¥è¿”å›å€¼ç±»å‹æ˜¯void
-// 2ï¼Œæœ‰æœªçŸ¥å†…å®¹å—ï¼Ÿæœ‰ï¼Œä¸¤ä¸ªï¼Œå› ä¸ºçŸ©å½¢çš„è¡Œå’Œåˆ—ä¸ç¡®å®šã€‚
+// ¶¨ÒåÒ»¸ö¹¦ÄÜ£¬ÓÃÓÚ´òÓ¡¾ØĞÎ¡£
+// Ë¼Â·£º
+// 1£¬È·¶¨½á¹û£ºÃ»ÓĞ£¬ÒòÎªÖ±½Ó´òÓ¡¡£ËùÒÔ·µ»ØÖµÀàĞÍÊÇvoid
+// 2£¬ÓĞÎ´ÖªÄÚÈİÂğ£¿ÓĞ£¬Á½¸ö£¬ÒòÎª¾ØĞÎµÄĞĞºÍÁĞ²»È·¶¨¡£
 // */
 // public static void draw(int oo,int row,int col)
 // {
@@ -151,7 +151,7 @@
 //	public static void main (String [] args)
 //	{
 //		int max = getmax (143,8);
-//		System.out.println ("è¾ƒå¤§çš„æ•°æ˜¯ï¼š" +  max );
+//		System.out.println ("½Ï´óµÄÊıÊÇ£º" +  max );
 //	}
 //
 //		public static int getmax (int a,int b){
@@ -222,18 +222,18 @@
 
 /*
 
-éœ€æ±‚ï¼š ä½¿ç”¨javaæè¿°ä¸€ä¸ªè½¦ä¸ä¿®è½¦å‚ä¸¤ä¸ªäº‹ç‰©ï¼Œ è½¦å…·å¤‡çš„å…¬å…±å±æ€§:è½®å­æ•°ã€ åå­—ã€ é¢œè‰² ï¼Œè¿˜
-å…·å¤‡è·‘çš„åŠŸèƒ½è¡Œä¸ºã€‚è·‘ä¹‹å‰è¦æ£€æµ‹è½®å­æ˜¯å¦å°‘äºäº†4ä¸ªï¼Œå¦‚æœå°‘äºäº†4ä¸ªï¼Œé‚£ä¹ˆè¦é€åˆ°ä¿®è½¦å‚ä¿®ç†ï¼Œ
-ä¿®è½¦å‚ä¿®ç†ä¹‹åï¼Œè½¦çš„è½®å­æ•°è¦è¡¥å›æ¥4ä¸ªã€‚ ç„¶åè½¦å°±ç»§ç»­çš„è·‘èµ·æ¥ã€‚
+ĞèÇó£º Ê¹ÓÃjavaÃèÊöÒ»¸ö³µÓëĞŞ³µ³§Á½¸öÊÂÎï£¬ ³µ¾ß±¸µÄ¹«¹²ÊôĞÔ:ÂÖ×ÓÊı¡¢ Ãû×Ö¡¢ ÑÕÉ« £¬»¹
+¾ß±¸ÅÜµÄ¹¦ÄÜĞĞÎª¡£ÅÜÖ®Ç°Òª¼ì²âÂÖ×ÓÊÇ·ñÉÙÓÚÁË4¸ö£¬Èç¹ûÉÙÓÚÁË4¸ö£¬ÄÇÃ´ÒªËÍµ½ĞŞ³µ³§ĞŞÀí£¬
+ĞŞ³µ³§ĞŞÀíÖ®ºó£¬³µµÄÂÖ×ÓÊıÒª²¹»ØÀ´4¸ö¡£ È»ºó³µ¾Í¼ÌĞøµÄÅÜÆğÀ´¡£
 
-ä¿®è½¦å‚ï¼š å…·å¤‡å…¬å…±å±æ€§ï¼š åå­—ã€ åœ°å€ã€ ç”µè¯ã€‚
-		 å…¬å…±çš„è¡Œä¸ºï¼š ä¿®è½¦ã€‚
+ĞŞ³µ³§£º ¾ß±¸¹«¹²ÊôĞÔ£º Ãû×Ö¡¢ µØÖ·¡¢ µç»°¡£
+		 ¹«¹²µÄĞĞÎª£º ĞŞ³µ¡£
 
-åˆå­¦è€…çš„ç»å…¸é”™è¯¯ï¼š
-	1. å˜é‡åœ¨åŒä¸€ä¸ªä½œç”¨åŸŸ(å¤§æ‹¬å·)ä¸Šæ˜¯å¯ä»¥ç›´æ¥è®¿é—®çš„ã€‚
-	2. å¦‚æœä¸€ä¸ªç±»è¦è®¿é—®å¦å¤–ä¸€ä¸ªç±»å˜é‡æ—¶ï¼Œé‚£ä¹ˆè¿™æ—¶å€™å°±åªèƒ½é€šè¿‡åˆ›å»ºå¯¹è±¡è¿›è¡Œè®¿é—®ã€‚ï¼ˆä»…å¯¹äºç›®å‰æ­£ç¡®ï¼‰
+³õÑ§ÕßµÄ¾­µä´íÎó£º
+	1. ±äÁ¿ÔÚÍ¬Ò»¸ö×÷ÓÃÓò(´óÀ¨ºÅ)ÉÏÊÇ¿ÉÒÔÖ±½Ó·ÃÎÊµÄ¡£
+	2. Èç¹ûÒ»¸öÀàÒª·ÃÎÊÁíÍâÒ»¸öÀà±äÁ¿Ê±£¬ÄÇÃ´ÕâÊ±ºò¾ÍÖ»ÄÜÍ¨¹ı´´½¨¶ÔÏó½øĞĞ·ÃÎÊ¡££¨½ö¶ÔÓÚÄ¿Ç°ÕıÈ·£©
 */
-//è½¦ç±»	  
+//³µÀà	  
 //class Car{
 //
 //	String name;
@@ -242,9 +242,9 @@
 //
 //	public void run (){
 //		if (wheel >= 4){
-//			System.out.println(name+wheel+color+"ä¸ªè½®å­è·‘èµ·æ¥äº†");
+//			System.out.println(name+wheel+color+"¸öÂÖ×ÓÅÜÆğÀ´ÁË");
 //		}else {
-//			System.out.println(name+"ä¸å¤Ÿ4ä¸ªè½®å­ï¼Œéœ€ä¿®ç†");
+//			System.out.println(name+"²»¹»4¸öÂÖ×Ó£¬ĞèĞŞÀí");
 //		}
 //	
 //	}
@@ -252,7 +252,7 @@
 //}
 //
 //
-////ä¿®è½¦å‚
+////ĞŞ³µ³§
 //
 //class CarFactory{
 //	String name;
@@ -261,10 +261,10 @@
 //
 //	public Car repair(Car c){
 //		if (c.wheel>=4){
-//			System.out.println ("ä¿®å¥½äº†");
+//			System.out.println ("ĞŞºÃÁË");
 //		}else {
 //			c.wheel = 4;
-//			System.out.println ("å·²ç»4ä¸ªè½®å­ä¿®å¥½äº†");
+//			System.out.println ("ÒÑ¾­4¸öÂÖ×ÓĞŞºÃÁË");
 //		}
 //			return c;
 //	}
@@ -276,8 +276,8 @@
 //{
 //	public static void main (String [] args){
 //	Car c = new Car ();
-//	c.name = "ç›èæ‹‰è’‚";
-//	c.color = "é“¶ç™½";
+//	c.name = "ÂêÉ¯À­µÙ";
+//	c.color = "Òø°×";
 //	c.wheel = 4;
 //	for (int i = 0; i < 100;i++ )
 //	{c.run();
@@ -286,8 +286,8 @@
 //	c.run ();
 //
 //	CarFactory f = new CarFactory();
-//	f.name = "è€å¤«å­ä¿®è½¦å§";
-//	f.address = "ä¿®è½¦å¹¿åœº";
+//	f.name = "ÀÏ·ò×ÓĞŞ³µ°É";
+//	f.address = "ĞŞ³µ¹ã³¡";
 //	f.tel = "233434343";
 //	c = f.repair(c);
 //	c.run();
@@ -298,14 +298,14 @@
 //	
 
 /*
-éœ€æ±‚ï¼š ä½¿ç”¨javaç±»æè¿°ä¸€ä¸ªè®¡ç®—å™¨ç±»ï¼Œè®¡ç®—å™¨å…·å¤‡æ“ä½œæ•°1ï¼Œ æ“ä½œæ•°2 ã€æ“ä½œç¬¦ä¸‰ä¸ªå…¬å…± çš„å±æ€§
-ï¼Œè¿˜å…·å¤‡è®¡ç®—çš„åŠŸèƒ½è¡Œä¸ºã€‚ 
+ĞèÇó£º Ê¹ÓÃjavaÀàÃèÊöÒ»¸ö¼ÆËãÆ÷Àà£¬¼ÆËãÆ÷¾ß±¸²Ù×÷Êı1£¬ ²Ù×÷Êı2 ¡¢²Ù×÷·ûÈı¸ö¹«¹² µÄÊôĞÔ
+£¬»¹¾ß±¸¼ÆËãµÄ¹¦ÄÜĞĞÎª¡£ 
 
-è¦æ±‚ï¼š ä¸èƒ½ç›´æ¥å¯¹æ“ä½œæ•°1ï¼Œæ“ä½œæ•°2ï¼Œè¿ç®—ç¬¦è¿™äº›å±æ€§è¿›è¡Œç›´æ¥ çš„èµ‹å€¼ï¼Œè¦å°è£…èµ·æ¥ã€‚ (+ - * /  )
+ÒªÇó£º ²»ÄÜÖ±½Ó¶Ô²Ù×÷Êı1£¬²Ù×÷Êı2£¬ÔËËã·ûÕâĞ©ÊôĞÔ½øĞĞÖ±½Ó µÄ¸³Öµ£¬Òª·â×°ÆğÀ´¡£ (+ - * /  )
 
-æ ¹æ®éœ€æ±‚æä¾›getæˆ–è€…setæ–¹æ³•ã€‚
+¸ù¾İĞèÇóÌá¹©get»òÕßset·½·¨¡£
 
-	éœ€è¦æä¾›setæ–¹æ³•
+	ĞèÒªÌá¹©set·½·¨
 */
 //class test
 //{
@@ -342,16 +342,16 @@
 //		
 //		switch (option)		{
 //		case '+':
-//			System.out.println("åšåŠ æ³•ï¼Œç»“æœæ˜¯ï¼š"+(num1+num2));
+//			System.out.println("×ö¼Ó·¨£¬½á¹ûÊÇ£º"+(num1+num2));
 //			break;
 //		case '-':
-//			System.out.println("åšå‡æ³•ï¼Œç»“æœæ˜¯ï¼š"+(num1-num2));
+//			System.out.println("×ö¼õ·¨£¬½á¹ûÊÇ£º"+(num1-num2));
 //			break;
 //        case '*':
-//			System.out.println("åšä¹˜æ³•ï¼Œç»“æœæ˜¯ï¼š"+(num1*num2));
+//			System.out.println("×ö³Ë·¨£¬½á¹ûÊÇ£º"+(num1*num2));
 //			break;
 //        case '/':
-//			System.out.println("åšé™¤æ³•ï¼Œç»“æœæ˜¯ï¼š"+(num1/num2));
+//			System.out.println("×ö³ı·¨£¬½á¹ûÊÇ£º"+(num1/num2));
 //			break;
 //		
 //		}
@@ -366,11 +366,11 @@
 //	public static void main (String [] args){
 //		/*baby b = new baby();
 //		b.id = 123;
-//		b.name = "ç‹—å¨ƒ";
+//		b.name = "¹·ÍŞ";
 //		b.cry();*/
 //
-//		baby b = new baby(123,"ç‹—å¨ƒ") ;
-//		System.out.println("ç¼–å·ï¼š"+b.id+"å§“åï¼š"+b.name);
+//		baby b = new baby(123,"¹·ÍŞ") ;
+//		System.out.println("±àºÅ£º"+b.id+"ĞÕÃû£º"+b.name);
 //		
 //	}
 //}
@@ -384,24 +384,24 @@
 //	public  baby (int i,String n){
 //		id = i;
 //		name = n;
-//		System.out.println("babyçš„å±æ€§åˆå§‹åŒ–å®Œæ¯•ï¼");
+//		System.out.println("babyµÄÊôĞÔ³õÊ¼»¯Íê±Ï£¡");
 //	
 //	
 //	}
 //
 //	public void cry(){
-//		System.out.println (name+"å“­");
+//		System.out.println (name+"¿Ş");
 //	}
 //
 //
 //}
 
 //class animal{
-//	String name = "ç‹—";
+//	String name = "¹·";
 //	String color;
 //	public void eat (){
-//		String name = "è€é¼ ";
-//		System.out.println(name + "åœ¨åƒ.....");
+//		String name = "ÀÏÊó";
+//		System.out.println(name + "ÔÚ³Ô.....");
 //	}
 //}
 //
@@ -419,22 +419,22 @@
 // 
 //    public static void main(String[] args) {
 //        int oldArr[]={1,3,4,5,0,0,6,6,0,5,4,7,6,7,0,5};
-//        int zero=0; // ç»Ÿè®¡0çš„ä¸ªæ•°
+//        int zero=0; // Í³¼Æ0µÄ¸öÊı
 //        for(int i=0;i<oldArr.length;i++){
 //            if(oldArr[i]==0){
 //                zero++;
 //            }
 //        }
-//        int newArr[]=new int[oldArr.length-zero]; // å®šä¹‰æ–°çš„æ•°ç»„ é•¿åº¦æ˜¯ åŸæ¥æ—§çš„æ•°ç»„çš„é•¿åº¦å‡å»0çš„ä¸ªæ•°
-//        int j=0; // æ–°æ•°ç»„çš„ç´¢å¼•
-//        for(int i=0;i<oldArr.length;i++){ // éå†åŸæ¥æ—§çš„æ•°ç»„
-//            if(oldArr[i]!=0){ // å‡å¦‚ä¸ç­‰äº0
-//                newArr[j]=oldArr[i]; // èµ‹å€¼ç»™æ–°çš„æ•°ç»„
+//        int newArr[]=new int[oldArr.length-zero]; // ¶¨ÒåĞÂµÄÊı×é ³¤¶ÈÊÇ Ô­À´¾ÉµÄÊı×éµÄ³¤¶È¼õÈ¥0µÄ¸öÊı
+//        int j=0; // ĞÂÊı×éµÄË÷Òı
+//        for(int i=0;i<oldArr.length;i++){ // ±éÀúÔ­À´¾ÉµÄÊı×é
+//            if(oldArr[i]!=0){ // ¼ÙÈç²»µÈÓÚ0
+//                newArr[j]=oldArr[i]; // ¸³Öµ¸øĞÂµÄÊı×é
 //                j++;
 //            }
 //        }
 //         
-//        System.out.print("æ–°æ•°ç»„ï¼š");
+//        System.out.print("ĞÂÊı×é£º");
 //        for(int n:newArr){
 //            System.out.print(n+" ");
 //        }
@@ -450,16 +450,16 @@
 //}
 
 //class test{
-//	 String name = "è°ƒç”¨thisname ";
+//	 String name = "µ÷ÓÃthisname ";
 //	public void print (String name){
-//		System.out.println("ç±»ä¸­çš„å±æ€§ name ="  + this.name);
-//		System.out.println("å±€éƒ¨ä¼ å‚çš„å±æ€§=" + name);
+//		System.out.println("ÀàÖĞµÄÊôĞÔ name ="  + this.name);
+//		System.out.println("¾Ö²¿´«²ÎµÄÊôĞÔ=" + name);
 //	}
 //
 //	public static void main (String [] args)
 //	{
 //		test tt = new test();
-//		tt.print ("ä¸»å‡½æ•°ä¼ è¿›å»çš„å");
+//		tt.print ("Ö÷º¯Êı´«½øÈ¥µÄÃû");
 //	} 
 //	
 //}
@@ -467,8 +467,8 @@
 
 //class test{
 //	public static void main (String [] args){
-//		System.out.println ("æ•°ç»„çš„é•¿åº¦ï¼š"+args.length);
-//		System.out.print ("æ•°ç»„ä¸º:");
+//		System.out.println ("Êı×éµÄ³¤¶È£º"+args.length);
+//		System.out.print ("Êı×éÎª:");
 //		for (int i=0;i<args.length;i++ ){
 //			
 //			System.out.print (args[i]+",");
@@ -478,8 +478,8 @@
 //
 
 
-///*éœ€æ±‚ï¼š æè¿°ä¸€ä¸ªå›¾å½¢ã€åœ†å½¢ã€ çŸ©å½¢ä¸‰ä¸ªç±»ã€‚ä¸ç®¡å“ªç§å›¾å½¢éƒ½ä¼šå…·å¤‡è®¡ç®—é¢ç§¯
-//ä¸å‘¨é•¿çš„è¡Œä¸ºï¼Œä½†æ˜¯æ¯ç§å›¾å½¢è®¡ç®—çš„æ–¹å¼ä¸ä¸€è‡´è€Œå·²ã€‚*/
+///*ĞèÇó£º ÃèÊöÒ»¸öÍ¼ĞÎ¡¢Ô²ĞÎ¡¢ ¾ØĞÎÈı¸öÀà¡£²»¹ÜÄÄÖÖÍ¼ĞÎ¶¼»á¾ß±¸¼ÆËãÃæ»ı
+//ÓëÖÜ³¤µÄĞĞÎª£¬µ«ÊÇÃ¿ÖÖÍ¼ĞÎ¼ÆËãµÄ·½Ê½²»Ò»ÖÂ¶øÒÑ¡£*/
 //
 //
 //abstract class test{
@@ -513,7 +513,7 @@
 //	int a= 3;
 //	int b = 5;
 //	ChangeNum (a,b);
-//	System.out.println ("äº¤æ¢åçš„æ•°å­—"+ "a="+a+ "b="+b);
+//	System.out.println ("½»»»ºóµÄÊı×Ö"+ "a="+a+ "b="+b);
 //	
 //	}
 //
@@ -555,7 +555,7 @@
 //		this.name=name;
 //		}
 //	public void study () {
-//		System.out.println (name+"å¥½å¥½å­¦ä¹ ");
+//		System.out.println (name+"ºÃºÃÑ§Ï°");
 //	}
 //}
 //
@@ -570,7 +570,7 @@
 //	}
 //
 //	public void makemoney(){
-//	System.out.println(name+"èµšé’±");
+//	System.out.println(name+"×¬Ç®");
 //	}
 //} 
 //class test{
@@ -592,7 +592,7 @@
 //	public void print(){
 ////		class dog extends animal{
 ////			public void run() {
-////				System.out.println("ç‹—åœ¨è·‘...");
+////				System.out.println("¹·ÔÚÅÜ...");
 ////			}
 ////		}
 ////	dog d = new dog ();
@@ -602,11 +602,11 @@
 //
 //new animal (){
 //	public void run (){
-//		System.out.println("ç‹—å·²ç»åœ¨è·‘...");
+//		System.out.println("¹·ÒÑ¾­ÔÚÅÜ...");
 //	}
 //
 //	public void run1 (){
-//		System.out.println("åœ¨è·‘...");
+//		System.out.println("ÔÚÅÜ...");
 //	}
 //}.run1 ();
 //
@@ -646,7 +646,7 @@
 
 //class outer{
 	
-	//String name = "å¤–éƒ¨ç±»çš„name";
+	//String name = "Íâ²¿ÀàµÄname";
 
 	//public void test(){
 		//int y = 100;
@@ -657,7 +657,7 @@
 
 			//public void print(){
 			
-				//System.out.println("å±€éƒ¨å†…éƒ¨ç±»çš„printæ–¹æ³•.."+y);
+				//System.out.println("¾Ö²¿ÄÚ²¿ÀàµÄprint·½·¨.."+y);
 			//}
 		//}
 	
@@ -700,8 +700,8 @@
 
 
  
-//// day 11   1.è‡ªå®šä¹‰å¼‚å¸¸ç±»   æ¨¡æ‹ŸfeiQä¸Šçº¿æ—¶å€™ï¼Œå¦‚æœæ— ç½‘ç»œï¼Œé‚£ä¹ˆå°±æŠ›å‡ºä¸€ä¸ªæ²¡æœ‰æ’ä¸Šç½‘çº¿çš„å¼‚å¸¸ï¼Œ
-////å¦‚æœç½‘ç»œæ­£å¸¸ï¼Œé‚£ä¹ˆä¹…æ­£å¸¸æ˜¾ç¤ºå¥½å‹åˆ—è¡¨
+//// day 11   1.×Ô¶¨ÒåÒì³£Àà   Ä£ÄâfeiQÉÏÏßÊ±ºò£¬Èç¹ûÎŞÍøÂç£¬ÄÇÃ´¾ÍÅ×³öÒ»¸öÃ»ÓĞ²åÉÏÍøÏßµÄÒì³££¬
+////Èç¹ûÍøÂçÕı³££¬ÄÇÃ´¾ÃÕı³£ÏÔÊ¾ºÃÓÑÁĞ±í
 
 
 
@@ -723,7 +723,7 @@
 		///*}
 		//catch (NoIpException e)	{
 			//e.printStackTrace();
-			//System.out.println("é©¬ä¸Šæ’ä¸Šç½‘çº¿");
+			//System.out.println("ÂíÉÏ²åÉÏÍøÏß");
 		//}
 		
 	//*/
@@ -731,18 +731,18 @@
 	//}
 	//public static void feiQ (String ip) throws NoIpException {
 		//if (ip == null) {
-			//throw new NoIpException	("æ²¡æœ‰æ’ç½‘çº¿");
+			//throw new NoIpException	("Ã»ÓĞ²åÍøÏß");
 
 
 		//}
-		//System.out.println("æ­£å¸¸æ˜¾ç¤ºå¥½å‹");
+		//System.out.println("Õı³£ÏÔÊ¾ºÃÓÑ");
 	//}
 //}
 
 
-//////day 11  2.è‡ªå®šä¹‰å¼‚å¸¸ç±»  demo 3 
-//////æ¨¡æ‹Ÿåƒé¥­ï¼Œå¸¦é’±å°‘äº10å—ï¼Œå°±æŠ›å‡ºä¸€ä¸ªæ²¡æœ‰å¸¦å¤Ÿé’±çš„å¼‚å¸¸å¯¹è±¡ï¼Œ
-//////å¦‚æœå¸¦å¤Ÿäº†ï¼Œé‚£ä¹ˆå°±å¯ä»¥åƒä¸Šé¦™å–·å–·çš„é¥­
+//////day 11  2.×Ô¶¨ÒåÒì³£Àà  demo 3 
+//////Ä£Äâ³Ô·¹£¬´øÇ®ÉÙÓÚ10¿é£¬¾ÍÅ×³öÒ»¸öÃ»ÓĞ´ø¹»Ç®µÄÒì³£¶ÔÏó£¬
+//////Èç¹û´ø¹»ÁË£¬ÄÇÃ´¾Í¿ÉÒÔ³ÔÉÏÏãÅçÅçµÄ·¹
 //class NoMoneyException extends Exception {
 	//public NoMoneyException (String message) {
 		//super(message);
@@ -760,7 +760,7 @@
 			//}
 			//catch (NoMoneyException e){
 				//e.printStackTrace();
-				//System.out.println("ç»™æˆ‘æ´—ç¢—å»");
+				//System.out.println("¸øÎÒÏ´ÍëÈ¥");
 			//}
 				
 	//}
@@ -768,15 +768,15 @@
 
 	//public static void eat (int money) throws NoMoneyException {
 			//if (money < 10 ){
-					//throw new NoMoneyException("åƒéœ¸ç‹é¤");
+					//throw new NoMoneyException("³Ô°ÔÍõ²Í");
 			//}
-			//System.out.println("åƒé¥­å»äº†ï¼ï¼");
+			//System.out.println("³Ô·¹È¥ÁË£¡£¡");
 	
 	//}
 	//}
 
 
-//////day 11  4.finallyå—       Demo6 
+//////day 11  4.finally¿é       Demo6 
 
 //import java.io.*;
 //class test{
@@ -785,28 +785,28 @@
 
 		//FileReader fileReader = null;
 		//try{
-			////æ‰¾åˆ°ç›®æ ‡æ–‡ä»¶
+			////ÕÒµ½Ä¿±êÎÄ¼ş
 			//File file = new File ("c:\\HaxLogs1.txt");
-			////å»ºç«‹ç¨‹åºä¸æ–‡ä»¶çš„æ•°æ®é€šé“
+			////½¨Á¢³ÌĞòÓëÎÄ¼şµÄÊı¾İÍ¨µÀ
 			//fileReader = new FileReader(file);
-			////è¯»å–æ–‡ä»¶
+			////¶ÁÈ¡ÎÄ¼ş
 			//char [] buf = new char [1024];
 			//int length = 0;
 			//length = fileReader.read(buf);
-			//System.out.println("è¯»å–åˆ°çš„å†…å®¹"+ new String (buf,0,length));
-			////å…³é—­èµ„æº
+			//System.out.println("¶ÁÈ¡µ½µÄÄÚÈİ"+ new String (buf,0,length));
+			////¹Ø±Õ×ÊÔ´
 		//}
 		//catch (IOException e) {
-			//System.out.println("è¯»å–èµ„æºæ–‡ä»¶å¤±è´¥....");
+			//System.out.println("¶ÁÈ¡×ÊÔ´ÎÄ¼şÊ§°Ü....");
 					
 		//} finally {
 			//try
 			//{
 				//fileReader.close();
-				//System.out.println("é‡Šæ”¾èµ„æºæ–‡ä»¶æˆåŠŸ");
+				//System.out.println("ÊÍ·Å×ÊÔ´ÎÄ¼ş³É¹¦");
 			//}
 			//catch (IOException e){
-				//System.out.println("é‡Šæ”¾èµ„æºæ–‡ä»¶å¤±è´¥");
+				//System.out.println("ÊÍ·Å×ÊÔ´ÎÄ¼şÊ§°Ü");
 
 			//}
 			
@@ -820,7 +820,7 @@
 //class test{
 			
 			//public static void main (String [] args) {
-			//System.out.println ("è¿™æ˜¯testçš„æ–¹æ³•");
+			//System.out.println ("ÕâÊÇtestµÄ·½·¨");
 			//}
 
 
@@ -829,17 +829,17 @@
 
 public class test{  
     public static void main(String args[]){   
-    //iæ˜¯è¡¨ç¤ºæœˆä»½çš„ï¼Œè¿™é‡Œè®¡ç®—äº†36ä¸ªæœˆï¼Œä¹Ÿå°±æ˜¯ä¸‰å¹´ï¼Œå…”å­çš„æ•°é‡  
+    //iÊÇ±íÊ¾ÔÂ·İµÄ£¬ÕâÀï¼ÆËãÁË36¸öÔÂ£¬Ò²¾ÍÊÇÈıÄê£¬ÍÃ×ÓµÄÊıÁ¿  
       int i;  
-      long arr[]=new long[36];   //è¿™ä¸ªæ•°ç»„æ—¶ç”¨æ¥è®¡ç®—æ¯æœˆæœ‰å…”å­çš„å¯¹æ•°  
+      long arr[]=new long[36];   //Õâ¸öÊı×éÊ±ÓÃÀ´¼ÆËãÃ¿ÔÂÓĞÍÃ×ÓµÄ¶ÔÊı  
       arr[0]=arr[1]=1;  
-      System.out.println("ç¬¬1ä¸ªæœˆæœ‰å…”å­1å¯¹"+", "+"æ€»æ•°æ˜¯"+2);  
-      System.out.println("ç¬¬2ä¸ªæœˆæœ‰å…”å­1å¯¹"+", "+"æ€»æ•°æ˜¯"+2);  
+      System.out.println("µÚ1¸öÔÂÓĞÍÃ×Ó1¶Ô"+", "+"×ÜÊıÊÇ"+2);  
+      System.out.println("µÚ2¸öÔÂÓĞÍÃ×Ó1¶Ô"+", "+"×ÜÊıÊÇ"+2);  
       for(i=2;i<=35;i++){  
          arr[i]=arr[i-1]+arr[i-2];  
-         System.out.println("ç¬¬"+i+"ä¸ªæœˆæœ‰å…”å­"+arr[i]+"å¯¹"+", "+"æ€»æ•°æ˜¯"+2*arr[i]);  
-             //è§„å¾‹æ˜¯ æ¯ä¸ªæ•°å­—éƒ½æ˜¯å‰é¢ä¸¤ä¸ªæ•°å­—ä¹‹     å’Œ  
+         System.out.println("µÚ"+i+"¸öÔÂÓĞÍÃ×Ó"+arr[i]+"¶Ô"+", "+"×ÜÊıÊÇ"+2*arr[i]);  
+             //¹æÂÉÊÇ Ã¿¸öÊı×Ö¶¼ÊÇÇ°ÃæÁ½¸öÊı×ÖÖ®     ºÍ  
          }  
    }  
           
-}   å¯¹å¯¹å¯¹
+}   
