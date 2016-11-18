@@ -817,17 +817,17 @@
 //}
 
 
-//class test{
+class test{
 			
-			//public static void main (String [] args) {
-			//System.out.println ("这是test的方法");
-			//}
+			public static void main (String [] args) {
+			System.out.println ("这是test的方法");
+			}
 
 
 
-//}
+}
 
-public class test{  
+/*public class test{  
     public static void main(String args[]){   
     //i是表示月份的，这里计算了36个月，也就是三年，兔子的数量  
       int i;  
@@ -842,4 +842,4 @@ public class test{
          }  
    }  
           
-}   
+}   */
